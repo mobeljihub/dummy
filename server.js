@@ -43,7 +43,7 @@ app.get('/login', (req, res) => {
 */
 app.post('/submit', (req, res) => {
   console.log("Raw Body:", req.body);
-  res.json({ received: req.body });
+  res.json({ received: req.body );
 });
 
 
