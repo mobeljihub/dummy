@@ -29,7 +29,7 @@ app.get('/login', (req, res) => {
   );
 
   if (user) {
-    return res.json({ success: true, user });
+    return res.json({ successs: true, user });
   }
 
   res.status(401).json({ success: false });
