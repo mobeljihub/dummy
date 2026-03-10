@@ -1,0 +1,15 @@
+name: Build Application
+
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: echo "Installing..."
+      - name: Build project
+        run: echo "Building project..."
